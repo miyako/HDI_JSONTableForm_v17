@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="Project/Sources/Methods" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="HDI_Title" resname="HDI_Title">
+				<source>create a dynamic table form</source>
+				<target>テーブルから動的フォームを作成</target>
+			</trans-unit>
+			<trans-unit id="HDI_Info" resname="HDI_Info">
+				<source>Dynamic form feature</source>
+				<target>動的フォーム機能</target>
+			</trans-unit>
+			<trans-unit id="BtnClose" resname="BtnClose">
+				<source>Close</source>
+				<target>閉じる</target>
+			</trans-unit>
+			<trans-unit id="ErrorViewProMain" resname="ErrorViewProMain">
+				<source>Sorry, this “How do I” (HDI) example demonstrates a 4D View Pro feature.</source>
+				<target>このHDI（How do I）の例は4D View Proの機能を紹介しています。</target>
+			</trans-unit>
+			<trans-unit id="ErrorViewProSub" resname="ErrorViewProSub">
+				<source>You must have a valid 4D View Pro license to continue.</source>
+				<target>続行するには有効な4D View Proライセンスが必要です。</target>
+			</trans-unit>
+			<trans-unit id="ErrorWriteProMain" resname="ErrorWriteProMain">
+				<source>Sorry, this “How do I” (HDI) example demonstrates a 4D Write Pro feature.</source>
+				<target>このHDI（How do I）の例は4D Write Proの機能を紹介しています。</target>
+			</trans-unit>
+			<trans-unit id="ErrorWriteProSub" resname="ErrorWriteProSub">
+				<source>You must have a valid 4D Write Pro license to continue.</source>
+				<target>続行するには有効な4D Write Proライセンスが必要です。</target>
+			</trans-unit>
+			<trans-unit id="AlertGenerateInput" resname="AlertGenerateInput">
+				<source>Please, generate an input form for the {table} table.</source>
+				<target>{table}テーブルの入力フォームを生成してください。</target>
+			</trans-unit>
+			<trans-unit id="AlertGenerateOutput" resname="AlertGenerateOutput">
+				<source>Please, generate an output form for the {table} table.</source>
+				<target>{table}テーブルの出力フォームを生成してください。</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

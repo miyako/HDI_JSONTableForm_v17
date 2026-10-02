@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="Project/Sources/TableForms" source-language="en" target-language="en">
+		<body>
+			<trans-unit id="TipFirstRecord" resname="TipFirstRecord">
+				<source>First Record</source>
+				<target>First Record</target>
+			</trans-unit>
+			<trans-unit id="TipPreviousRecord" resname="TipPreviousRecord">
+				<source>Previous Record</source>
+				<target>Previous Record</target>
+			</trans-unit>
+			<trans-unit id="TipNextRecord" resname="TipNextRecord">
+				<source>Next Record</source>
+				<target>Next Record</target>
+			</trans-unit>
+			<trans-unit id="TipLastRecord" resname="TipLastRecord">
+				<source>Last Record</source>
+				<target>Last Record</target>
+			</trans-unit>
+			<trans-unit id="TipDeleteRecord" resname="TipDeleteRecord">
+				<source>Delete Record</source>
+				<target>Delete Record</target>
+			</trans-unit>
+			<trans-unit id="TipCancel" resname="TipCancel">
+				<source>Cancel</source>
+				<target>Cancel</target>
+			</trans-unit>
+			<trans-unit id="TipAccept" resname="TipAccept">
+				<source>Accept</source>
+				<target>Accept</target>
+			</trans-unit>
+			<trans-unit id="TipRecordNumber" resname="TipRecordNumber">
+				<source>Record Position within Selection</source>
+				<target>Record Position within Selection</target>
+			</trans-unit>
+			<trans-unit id="TipAddRecord" resname="TipAddRecord">
+				<source>Add a New Record</source>
+				<target>Add a New Record</target>
+			</trans-unit>
+			<trans-unit id="TipDeleteSelection" resname="TipDeleteSelection">
+				<source>Delete Highlighted Records</source>
+				<target>Delete Highlighted Records</target>
+			</trans-unit>
+			<trans-unit id="TipShowAll" resname="TipShowAll">
+				<source>Select All Records</source>
+				<target>Select All Records</target>
+			</trans-unit>
+			<trans-unit id="TipShowSubset" resname="TipShowSubset">
+				<source>Select Highlighted Records</source>
+				<target>Select Highlighted Records</target>
+			</trans-unit>
+			<trans-unit id="TipQuery" resname="TipQuery">
+				<source>Query</source>
+				<target>Query</target>
+			</trans-unit>
+			<trans-unit id="TipOrderBy" resname="TipOrderBy">
+				<source>Order by</source>
+				<target>Order by</target>
+			</trans-unit>
+			<trans-unit id="TipReport" resname="TipReport">
+				<source>Quick Reports</source>
+				<target>Quick Reports</target>
+			</trans-unit>
+			<trans-unit id="TipPrintLabels" resname="TipPrintLabels">
+				<source>Print Labels</source>
+				<target>Print Labels</target>
+			</trans-unit>
+			<trans-unit id="TipPrintSelection" resname="TipPrintSelection">
+				<source>Print</source>
+				<target>Print</target>
+			</trans-unit>
+			<trans-unit id="TipDone" resname="TipDone">
+				<source>Done</source>
+				<target>Done</target>
+			</trans-unit>
+			<trans-unit id="TableForm_ShowAll" resname="TableForm_ShowAll">
+				<source>Show all</source>
+				<target>Show all</target>
+			</trans-unit>
+			<trans-unit id="TableForm_ShowSubset" resname="TableForm_ShowSubset">
+				<source>Show subset</source>
+				<target>Show subset</target>
+			</trans-unit>
+			<trans-unit id="TableForm_Query" resname="TableForm_Query">
+				<source>Query</source>
+				<target>Query</target>
+			</trans-unit>
+			<trans-unit id="TableForm_OrderBy" resname="TableForm_OrderBy">
+				<source>Order by</source>
+				<target>Order by</target>
+			</trans-unit>
+			<trans-unit id="TableForm_QuickReports" resname="TableForm_QuickReports">
+				<source>Quick reports</source>
+				<target>Quick reports</target>
+			</trans-unit>
+			<trans-unit id="TableForm_PrintLabels" resname="TableForm_PrintLabels">
+				<source>Print labels</source>
+				<target>Print labels</target>
+			</trans-unit>
+			<trans-unit id="TableForm_Finish" resname="TableForm_Finish">
+				<source>Finish</source>
+				<target>Finish</target>
+			</trans-unit>
+			<trans-unit id="TableTitle_Samples" resname="TableTitle_Samples">
+				<source>Samples</source>
+				<target>Samples</target>
+			</trans-unit>
+			<trans-unit id="TableTitle_Person" resname="TableTitle_Person">
+				<source>Person</source>
+				<target>Person</target>
+			</trans-unit>
+			<trans-unit id="TableTitle_AllTypes" resname="TableTitle_AllTypes">
+				<source>AllTypes</source>
+				<target>AllTypes</target>
+			</trans-unit>
+			<trans-unit id="Label_ID" resname="Label_ID">
+				<source>ID : </source>
+				<target>ID : </target>
+			</trans-unit>
+			<trans-unit id="Label_Title" resname="Label_Title">
+				<source>Title : </source>
+				<target>Title : </target>
+			</trans-unit>
+			<trans-unit id="Label_Text" resname="Label_Text">
+				<source>Text : </source>
+				<target>Text : </target>
+			</trans-unit>
+			<trans-unit id="Label_SampleSort" resname="Label_SampleSort">
+				<source>SampleSort : </source>
+				<target>SampleSort : </target>
+			</trans-unit>
+			<trans-unit id="Label_Lastname" resname="Label_Lastname">
+				<source>Lastname : </source>
+				<target>Lastname : </target>
+			</trans-unit>
+			<trans-unit id="Label_Firstname" resname="Label_Firstname">
+				<source>Firstname : </source>
+				<target>Firstname : </target>
+			</trans-unit>
+			<trans-unit id="Label_TextField" resname="Label_TextField">
+				<source>TextField : </source>
+				<target>TextField : </target>
+			</trans-unit>
+			<trans-unit id="Label_DateField" resname="Label_DateField">
+				<source>DateField : </source>
+				<target>DateField : </target>
+			</trans-unit>
+			<trans-unit id="Label_TimeField" resname="Label_TimeField">
+				<source>TimeField : </source>
+				<target>TimeField : </target>
+			</trans-unit>
+			<trans-unit id="Label_BooleanField" resname="Label_BooleanField">
+				<source>BooleanField : </source>
+				<target>BooleanField : </target>
+			</trans-unit>
+			<trans-unit id="Label_NumericField" resname="Label_NumericField">
+				<source>NumericField : </source>
+				<target>NumericField : </target>
+			</trans-unit>
+			<trans-unit id="Label_PictureField" resname="Label_PictureField">
+				<source>PictureField : </source>
+				<target>PictureField : </target>
+			</trans-unit>
+			<trans-unit id="Label_ObjectField" resname="Label_ObjectField">
+				<source>ObjectField : </source>
+				<target>ObjectField : </target>
+			</trans-unit>
+			<trans-unit id="Label_BlobField" resname="Label_BlobField">
+				<source>BlobField : </source>
+				<target>BlobField : </target>
+			</trans-unit>
+			<trans-unit id="Template_First" resname="Template_First">
+				<source>First</source>
+				<target>First</target>
+			</trans-unit>
+			<trans-unit id="Template_Previous" resname="Template_Previous">
+				<source>Previous</source>
+				<target>Previous</target>
+			</trans-unit>
+			<trans-unit id="Template_Next" resname="Template_Next">
+				<source>Next</source>
+				<target>Next</target>
+			</trans-unit>
+			<trans-unit id="Template_Last" resname="Template_Last">
+				<source>Last</source>
+				<target>Last</target>
+			</trans-unit>
+			<trans-unit id="Template_Validate" resname="Template_Validate">
+				<source>Validate</source>
+				<target>Validate</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

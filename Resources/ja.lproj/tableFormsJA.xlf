@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="Project/Sources/TableForms" source-language="en" target-language="ja">
+		<body>
+			<trans-unit id="TipFirstRecord" resname="TipFirstRecord">
+				<source>First Record</source>
+				<target>最初のレコード</target>
+			</trans-unit>
+			<trans-unit id="TipPreviousRecord" resname="TipPreviousRecord">
+				<source>Previous Record</source>
+				<target>前のレコード</target>
+			</trans-unit>
+			<trans-unit id="TipNextRecord" resname="TipNextRecord">
+				<source>Next Record</source>
+				<target>次のレコード</target>
+			</trans-unit>
+			<trans-unit id="TipLastRecord" resname="TipLastRecord">
+				<source>Last Record</source>
+				<target>最後のレコード</target>
+			</trans-unit>
+			<trans-unit id="TipDeleteRecord" resname="TipDeleteRecord">
+				<source>Delete Record</source>
+				<target>レコードを削除</target>
+			</trans-unit>
+			<trans-unit id="TipCancel" resname="TipCancel">
+				<source>Cancel</source>
+				<target>キャンセル</target>
+			</trans-unit>
+			<trans-unit id="TipAccept" resname="TipAccept">
+				<source>Accept</source>
+				<target>承認</target>
+			</trans-unit>
+			<trans-unit id="TipRecordNumber" resname="TipRecordNumber">
+				<source>Record Position within Selection</source>
+				<target>選択内のレコード位置</target>
+			</trans-unit>
+			<trans-unit id="TipAddRecord" resname="TipAddRecord">
+				<source>Add a New Record</source>
+				<target>新規レコードを追加</target>
+			</trans-unit>
+			<trans-unit id="TipDeleteSelection" resname="TipDeleteSelection">
+				<source>Delete Highlighted Records</source>
+				<target>選択したレコードを削除</target>
+			</trans-unit>
+			<trans-unit id="TipShowAll" resname="TipShowAll">
+				<source>Select All Records</source>
+				<target>すべてのレコードを選択</target>
+			</trans-unit>
+			<trans-unit id="TipShowSubset" resname="TipShowSubset">
+				<source>Select Highlighted Records</source>
+				<target>ハイライトしたレコードのみ選択</target>
+			</trans-unit>
+			<trans-unit id="TipQuery" resname="TipQuery">
+				<source>Query</source>
+				<target>検索</target>
+			</trans-unit>
+			<trans-unit id="TipOrderBy" resname="TipOrderBy">
+				<source>Order by</source>
+				<target>並べ替え</target>
+			</trans-unit>
+			<trans-unit id="TipReport" resname="TipReport">
+				<source>Quick Reports</source>
+				<target>クイックレポート</target>
+			</trans-unit>
+			<trans-unit id="TipPrintLabels" resname="TipPrintLabels">
+				<source>Print Labels</source>
+				<target>ラベルを印刷</target>
+			</trans-unit>
+			<trans-unit id="TipPrintSelection" resname="TipPrintSelection">
+				<source>Print</source>
+				<target>印刷</target>
+			</trans-unit>
+			<trans-unit id="TipDone" resname="TipDone">
+				<source>Done</source>
+				<target>完了</target>
+			</trans-unit>
+			<trans-unit id="TableForm_ShowAll" resname="TableForm_ShowAll">
+				<source>Show all</source>
+				<target>すべて表示</target>
+			</trans-unit>
+			<trans-unit id="TableForm_ShowSubset" resname="TableForm_ShowSubset">
+				<source>Show subset</source>
+				<target>サブセットを表示</target>
+			</trans-unit>
+			<trans-unit id="TableForm_Query" resname="TableForm_Query">
+				<source>Query</source>
+				<target>検索</target>
+			</trans-unit>
+			<trans-unit id="TableForm_OrderBy" resname="TableForm_OrderBy">
+				<source>Order by</source>
+				<target>並べ替え</target>
+			</trans-unit>
+			<trans-unit id="TableForm_QuickReports" resname="TableForm_QuickReports">
+				<source>Quick reports</source>
+				<target>クイックレポート</target>
+			</trans-unit>
+			<trans-unit id="TableForm_PrintLabels" resname="TableForm_PrintLabels">
+				<source>Print labels</source>
+				<target>ラベル印刷</target>
+			</trans-unit>
+			<trans-unit id="TableForm_Finish" resname="TableForm_Finish">
+				<source>Finish</source>
+				<target>終了</target>
+			</trans-unit>
+			<trans-unit id="TableTitle_Samples" resname="TableTitle_Samples">
+				<source>Samples</source>
+				<target>サンプル</target>
+			</trans-unit>
+			<trans-unit id="TableTitle_Person" resname="TableTitle_Person">
+				<source>Person</source>
+				<target>人物</target>
+			</trans-unit>
+			<trans-unit id="TableTitle_AllTypes" resname="TableTitle_AllTypes">
+				<source>AllTypes</source>
+				<target>全タイプ</target>
+			</trans-unit>
+			<trans-unit id="Label_ID" resname="Label_ID">
+				<source>ID : </source>
+				<target>ID : </target>
+			</trans-unit>
+			<trans-unit id="Label_Title" resname="Label_Title">
+				<source>Title : </source>
+				<target>タイトル : </target>
+			</trans-unit>
+			<trans-unit id="Label_Text" resname="Label_Text">
+				<source>Text : </source>
+				<target>テキスト : </target>
+			</trans-unit>
+			<trans-unit id="Label_SampleSort" resname="Label_SampleSort">
+				<source>SampleSort : </source>
+				<target>サンプル順 : </target>
+			</trans-unit>
+			<trans-unit id="Label_Lastname" resname="Label_Lastname">
+				<source>Lastname : </source>
+				<target>姓 : </target>
+			</trans-unit>
+			<trans-unit id="Label_Firstname" resname="Label_Firstname">
+				<source>Firstname : </source>
+				<target>名 : </target>
+			</trans-unit>
+			<trans-unit id="Label_TextField" resname="Label_TextField">
+				<source>TextField : </source>
+				<target>テキストフィールド : </target>
+			</trans-unit>
+			<trans-unit id="Label_DateField" resname="Label_DateField">
+				<source>DateField : </source>
+				<target>日付フィールド : </target>
+			</trans-unit>
+			<trans-unit id="Label_TimeField" resname="Label_TimeField">
+				<source>TimeField : </source>
+				<target>時間フィールド : </target>
+			</trans-unit>
+			<trans-unit id="Label_BooleanField" resname="Label_BooleanField">
+				<source>BooleanField : </source>
+				<target>ブールフィールド : </target>
+			</trans-unit>
+			<trans-unit id="Label_NumericField" resname="Label_NumericField">
+				<source>NumericField : </source>
+				<target>数値フィールド : </target>
+			</trans-unit>
+			<trans-unit id="Label_PictureField" resname="Label_PictureField">
+				<source>PictureField : </source>
+				<target>ピクチャーフィールド : </target>
+			</trans-unit>
+			<trans-unit id="Label_ObjectField" resname="Label_ObjectField">
+				<source>ObjectField : </source>
+				<target>オブジェクトフィールド : </target>
+			</trans-unit>
+			<trans-unit id="Label_BlobField" resname="Label_BlobField">
+				<source>BlobField : </source>
+				<target>BLOBフィールド : </target>
+			</trans-unit>
+			<trans-unit id="Template_First" resname="Template_First">
+				<source>First</source>
+				<target>最初</target>
+			</trans-unit>
+			<trans-unit id="Template_Previous" resname="Template_Previous">
+				<source>Previous</source>
+				<target>前へ</target>
+			</trans-unit>
+			<trans-unit id="Template_Next" resname="Template_Next">
+				<source>Next</source>
+				<target>次へ</target>
+			</trans-unit>
+			<trans-unit id="Template_Last" resname="Template_Last">
+				<source>Last</source>
+				<target>最後</target>
+			</trans-unit>
+			<trans-unit id="Template_Validate" resname="Template_Validate">
+				<source>Validate</source>
+				<target>確定</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

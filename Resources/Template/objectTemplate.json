@@ -1,0 +1,54 @@
+{
+    "staticText": {
+        "type": "text",
+        "textAlign": "right",
+        "width": 120,
+        "height": 18
+    },
+    "textInput": {
+        "type": "input",
+        "width": 120,
+        "height": 18,
+        "sizingX": "grow"
+    },
+    "booleanInput": {
+        "type": "checkbox",
+        "style": "regular",
+        "text": ":xliff:CommonYes",
+        "width": 120,
+        "height": 18,
+        "sizingX": "grow"
+    },
+    "pictureInput": {
+        "type": "input",
+        "pictureFormat": "proportionalCenter",
+        "width": 120,
+        "height": 120,
+        "sizingX": "fixed"
+    },
+    "objectInput": {
+        "type": "input",
+        "width": 120,
+        "height": 54,
+        "sizingX": "grow"
+    },
+    "timeInput": {
+        "type": "input",
+        "width": 120,
+        "height": 18,
+        "sizingX": "grow"
+    },
+    "dateInput": {
+        "type": "input",
+        "width": 120,
+        "height": 18,
+        "sizingX": "grow"
+    },
+    "colListbox": {
+        "minWidth": 100,
+        "maxWidth": 300,
+        "resizable": true,
+        "truncateMode": "none"
+
+    }
+}

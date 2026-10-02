@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="HDI_JSONTableForm_v17" uuid="4B8E8169B0F743D0A3470F0B5075F870" collation_locale="en">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="Samples" uuid="0D2F6831262A425592891871F83B48FC" id="1">
+		<field name="ID" uuid="D8F5E1CD3997477885BB93067934E1EC" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Title" uuid="0E222194245E4B2DA6AA7C942460D904" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="Text" uuid="39F264CA07484E9FBCCDABEC93F8891B" type="10" never_null="true" id="3"/>
+		<field name="SampleSort" uuid="6BC1F3AE5D15421CA88D93333C7BA23B" type="10" limiting_length="255" never_null="true" id="4"/>
+		<field name="DescriptionForm" uuid="4CEA390C866E408AADD0EE5DBB663516" type="10" never_null="true" id="6"/>
+		<primary_key field_name="ID" field_uuid="D8F5E1CD3997477885BB93067934E1EC"/>
+		<table_extra input_form="Input" output_form="Output"/>
+	</table>
+	<table name="Person" uuid="EAEA2228E5B544C4BE3DD617C44C70C7" id="2">
+		<field name="ID" uuid="190506AC313442429DEF0EC3478C531E" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Firstname" uuid="517756738DF341CEA3C2226EC7A0F158" type="10" never_null="true" id="2"/>
+		<field name="Lastname" uuid="19563B5CDC8B4E31B42B983DB34985A9" type="10" never_null="true" id="3"/>
+		<primary_key field_name="ID" field_uuid="190506AC313442429DEF0EC3478C531E"/>
+		<table_extra input_form="Form1" output_form="Form2"/>
+	</table>
+	<table name="AllTypes" uuid="C8991428075640AC867D3E5D0A783F11" id="3">
+		<field name="ID" uuid="BB9D2018446E49A483BBB2469083DB6E" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="AlphaField" uuid="1AC652E669E94272A7D7E6CFE50C159E" type="10" limiting_length="255" never_null="true" id="2"/>
+		<field name="TextField" uuid="89B0308673894757B8C158FA1C3AD729" type="10" never_null="true" id="3"/>
+		<field name="DateField" uuid="5DDBC6DD00404F9C8CE2FE036E31E7AA" type="8" never_null="true" id="4"/>
+		<field name="TimeField" uuid="52DA608A569B40F0B4B78D657E8E7447" type="9" never_null="true" id="5"/>
+		<field name="BooleanField" uuid="11932D02F02747B7B095D81FC1310454" type="1" never_null="true" id="6"/>
+		<field name="NumericField" uuid="106D7E141AC34EA0B2A9B4DB4EB79736" type="3" never_null="true" id="7"/>
+		<field name="PictureField" uuid="1F551D2AA89A4225A6EB9C3CA76A8F34" type="12" never_null="true" id="8"/>
+		<field name="ObjectField" uuid="42D0C83EB748406ABF45C5981AB5EF48" type="21" never_null="true" id="9"/>
+		<field name="Numeric32Field" uuid="E832280760BA43C09839EF78AB4FF542" type="4" never_null="true" id="10"/>
+		<field name="FloatField" uuid="2D6C6F13D1B8438A9FE1FA90FA4BE7D7" type="6" never_null="true" id="11"/>
+		<field name="RealField" uuid="99B37B009E574B47968B664D472BF74A" type="6" never_null="true" id="12"/>
+		<field name="Integer64Field" uuid="39344DC50AC94D859B2EB533CC744AA1" type="5" never_null="true" id="13"/>
+		<field name="BlobField" uuid="36E6D9F687B2447AB271D5506AB5DA62" type="18" never_null="true" id="14"/>
+		<primary_key field_name="ID" field_uuid="BB9D2018446E49A483BBB2469083DB6E"/>
+		<table_extra input_form="Input" output_form="Output"/>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="8F1556F35F29468EAF2A7C9F2712CDCC" type="7">
+		<field_ref uuid="190506AC313442429DEF0EC3478C531E" name="ID">
+			<table_ref uuid="EAEA2228E5B544C4BE3DD617C44C70C7" name="Person"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="B3B383E1A9BF46C886488F33518D6DC7" type="7">
+		<field_ref uuid="BB9D2018446E49A483BBB2469083DB6E" name="ID">
+			<table_ref uuid="C8991428075640AC867D3E5D0A783F11" name="AllTypes"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="DF86F14179E14BB39B0B204153AD7AEF" type="1">
+		<field_ref uuid="D8F5E1CD3997477885BB93067934E1EC" name="ID">
+			<table_ref uuid="0D2F6831262A425592891871F83B48FC" name="Samples"/>
+		</field_ref>
+	</index>
+	<base_extra package_name="HDI_JSONTableForm" structure_file_name="HDI_JSONTableForm" data_file_path=":HDI_JSONTableForm.4DD">
+		<journal_file journal_file_enabled="false"/>
+	</base_extra>
+</base>

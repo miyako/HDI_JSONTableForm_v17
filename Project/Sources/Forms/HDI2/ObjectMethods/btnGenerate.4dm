@@ -1,0 +1,2 @@
+
+generateForm(isOutput; isTemplate1)

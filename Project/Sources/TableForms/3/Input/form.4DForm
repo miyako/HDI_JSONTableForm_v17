@@ -1,0 +1,561 @@
+{
+	"destination": "detailScreen",
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"markerBody": 661,
+	"markerBreak": 661,
+	"markerFooter": 671,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"vRecNum": {
+					"type": "input",
+					"top": 96,
+					"left": 419,
+					"width": 100,
+					"height": 12,
+					"stroke": "automatic",
+					"fontFamily": "System Font",
+					"fontSize": 9,
+					"focusable": false,
+					"tooltip": ":xliff:TipRecordNumber",
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"method": "ObjectMethods/vRecNum.4dm",
+					"events": [
+						"onLoad",
+						"onHeader",
+						"onPrintingBreak"
+					]
+				},
+				"Text11": {
+					"type": "text",
+					"top": 93,
+					"left": 24,
+					"width": 380,
+					"height": 17,
+					"sizingX": "grow",
+					"stroke": "automatic",
+					"text": ":xliff:TableTitle_AllTypes"
+				},
+				"Line12": {
+					"type": "line",
+					"top": 77,
+					"left": 19,
+					"width": 509,
+					"sizingX": "grow"
+				},
+				"bFirst": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 21,
+					"width": 48,
+					"height": 48,
+					"tooltip": ":xliff:TipFirstRecord",
+					"action": "firstRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/FirstRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bPrevious": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 84,
+					"width": 48,
+					"height": 48,
+					"tooltip": ":xliff:TipPreviousRecord",
+					"action": "previousRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/PreviousRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bNext": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 147,
+					"width": 48,
+					"height": 48,
+					"tooltip": ":xliff:TipNextRecord",
+					"action": "nextRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/NextRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bLast": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 210,
+					"width": 48,
+					"height": 48,
+					"tooltip": ":xliff:TipLastRecord",
+					"action": "lastRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/LastRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bDelete": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 273,
+					"width": 48,
+					"height": 48,
+					"tooltip": ":xliff:TipDeleteRecord",
+					"action": "deleteRecord",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/DeleteRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bCancel": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 336,
+					"width": 48,
+					"height": 48,
+					"tooltip": ":xliff:TipCancel",
+					"action": "cancel",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Cancel.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bValidate": {
+					"type": "pictureButton",
+					"top": 16,
+					"left": 399,
+					"width": 48,
+					"height": 48,
+					"tooltip": ":xliff:TipAccept",
+					"action": "accept",
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Validate.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"Text13": {
+					"type": "text",
+					"top": 126,
+					"left": 167,
+					"width": 95,
+					"height": 17,
+					"textAlign": "right",
+					"text": ":xliff:Label_ID",
+					"stroke": "automatic"
+				},
+				"Text14": {
+					"type": "text",
+					"top": 153,
+					"left": 167,
+					"width": 95,
+					"height": 17,
+					"textAlign": "right",
+					"text": ":xliff:Label_TextField",
+					"stroke": "automatic"
+				},
+				"Text15": {
+					"type": "text",
+					"top": 228,
+					"left": 167,
+					"width": 95,
+					"height": 17,
+					"textAlign": "right",
+					"text": ":xliff:Label_DateField",
+					"stroke": "automatic"
+				},
+				"Text16": {
+					"type": "text",
+					"top": 255,
+					"left": 167,
+					"width": 95,
+					"height": 17,
+					"textAlign": "right",
+					"text": ":xliff:Label_TimeField",
+					"stroke": "automatic"
+				},
+				"Text17": {
+					"type": "text",
+					"top": 282,
+					"left": 167,
+					"width": 95,
+					"height": 17,
+					"textAlign": "right",
+					"text": ":xliff:Label_BooleanField",
+					"stroke": "automatic"
+				},
+				"Text18": {
+					"type": "text",
+					"top": 309,
+					"left": 167,
+					"width": 95,
+					"height": 17,
+					"textAlign": "right",
+					"text": ":xliff:Label_NumericField",
+					"stroke": "automatic"
+				},
+				"Text19": {
+					"type": "text",
+					"top": 336,
+					"left": 167,
+					"width": 95,
+					"height": 17,
+					"textAlign": "right",
+					"text": ":xliff:Label_PictureField",
+					"stroke": "automatic"
+				},
+				"Text20": {
+					"type": "text",
+					"top": 596,
+					"left": 167,
+					"width": 95,
+					"height": 17,
+					"textAlign": "right",
+					"text": ":xliff:Label_ObjectField",
+					"stroke": "automatic"
+				},
+				"ID": {
+					"type": "input",
+					"top": 126,
+					"left": 267,
+					"width": 64,
+					"height": 17,
+					"dataSource": "[AllTypes:3]ID:1",
+					"dataSourceTypeHint": "integer",
+					"textAlign": "left",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "sunken",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"TextField": {
+					"type": "input",
+					"top": 153,
+					"left": 267,
+					"width": 206,
+					"height": 65,
+					"dataSource": "[AllTypes:3]TextField:3",
+					"textAlign": "left",
+					"fill": "automatic",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"DateField": {
+					"type": "input",
+					"top": 228,
+					"left": 267,
+					"width": 81,
+					"height": 17,
+					"dataSource": "[AllTypes:3]DateField:4",
+					"dataSourceTypeHint": "date",
+					"textAlign": "left",
+					"fill": "automatic",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"TimeField": {
+					"type": "input",
+					"top": 255,
+					"left": 267,
+					"width": 63,
+					"height": 17,
+					"dataSource": "[AllTypes:3]TimeField:5",
+					"dataSourceTypeHint": "time",
+					"textAlign": "left",
+					"fill": "automatic",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"BooleanField": {
+					"type": "checkbox",
+					"top": 282,
+					"left": 267,
+					"width": 61,
+					"height": 15,
+					"dataSource": "[AllTypes:3]BooleanField:6",
+					"text": ":xliff:CommonYes",
+					"stroke": "automatic",
+					"textAlign": "left",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"NumericField": {
+					"type": "input",
+					"top": 309,
+					"left": 267,
+					"width": 56,
+					"height": 17,
+					"dataSource": "[AllTypes:3]NumericField:7",
+					"textAlign": "left",
+					"fill": "automatic",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"PictureField": {
+					"type": "input",
+					"top": 336,
+					"left": 267,
+					"width": 206,
+					"height": 250,
+					"dataSource": "[AllTypes:3]PictureField:8",
+					"dataSourceTypeHint": "picture",
+					"fill": "automatic",
+					"borderStyle": "sunken",
+					"scrollbarVertical": "visible",
+					"scrollbarHorizontal": "visible",
+					"dragging": "custom",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"ObjectField": {
+					"type": "input",
+					"top": 596,
+					"left": 267,
+					"width": 206,
+					"height": 65,
+					"dataSource": "[AllTypes:3]ObjectField:9",
+					"dataSourceTypeHint": "object",
+					"textAlign": "left",
+					"fill": "automatic",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"multiline": "yes",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"top": 672,
+					"left": 167,
+					"width": 95,
+					"height": 17,
+					"textAlign": "right",
+					"text": ":xliff:Label_BlobField",
+					"stroke": "automatic"
+				},
+				"ObjectField1": {
+					"type": "input",
+					"top": 672,
+					"left": 267,
+					"width": 206,
+					"height": 65,
+					"dataSource": "[AllTypes:3]ObjectField:9",
+					"dataSourceTypeHint": "object",
+					"textAlign": "left",
+					"fill": "automatic",
+					"borderStyle": "sunken",
+					"contextMenu": "none",
+					"multiline": "yes",
+					"scrollbarVertical": "visible",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {},
+			"View 2": {
+				"objects": [
+					"vRecNum",
+					"Text11",
+					"Line12"
+				]
+			},
+			"View 3": {
+				"objects": [
+					"bFirst",
+					"bPrevious",
+					"bNext",
+					"bLast",
+					"bDelete",
+					"bCancel",
+					"bValidate"
+				]
+			},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {}
+		}
+	}
+}

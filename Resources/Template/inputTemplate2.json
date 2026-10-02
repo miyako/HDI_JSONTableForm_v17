@@ -1,0 +1,119 @@
+{
+    "windowTitle": "inputForm",
+    "windowMinWidth": 390,
+    "windowMinHeight": 460,
+    "definition": {
+        "mostTop": 20,
+        "mostLeft": 120,
+        "mostBottom": 440,
+        "spacingX": 10,
+        "spacingY": 12
+    },
+    "pages": [
+        null,
+        {
+            "objects": { 
+                "btnFirstRecord": {
+                    "type": "button",
+                    "text": ":xliff:Template_First",
+                    "action": "firstRecord",
+                    "style": "toolbar",
+                    "icon": "/RESOURCES/images/Buttons/LightGrey/FirstRecord.png",
+                    "iconFrames": 4,
+                    "textPlacement": "bottom",
+                    "left": 20, 
+                    "top": 20, 
+                    "width": 60, 
+                    "height": 60
+                },
+                "btnPreviousRecord": {
+                    "type": "button",
+                    "text": ":xliff:Template_Previous",
+                    "action": "previousRecord",
+                    "style": "toolbar",
+                    "icon": "/RESOURCES/images/Buttons/LightGrey/PreviousRecord.png",
+                    "iconFrames": 4,
+                    "textPlacement": "bottom",
+                    "left": 20, 
+                    "top": 80, 
+                    "width": 60, 
+                    "height": 60
+                },
+                "btnNextRecord": {
+                    "type": "button",
+                    "text": ":xliff:Template_Next",
+                    "action": "nextRecord",
+                    "style": "toolbar",
+                    "icon": "/RESOURCES/images/Buttons/LightGrey/NextRecord.png",
+                    "iconFrames": 4,
+                    "textPlacement": "bottom",
+                    "left": 20, 
+                    "top": 140, 
+                    "width": 60, 
+                    "height": 60
+                },
+                "btnLastRecord": {
+                    "type": "button",
+                    "text": ":xliff:Template_Last",
+                    "action": "lastRecord",
+                    "style": "toolbar",
+                    "icon": "/RESOURCES/images/Buttons/LightGrey/LastRecord.png",
+                    "iconFrames": 4,
+                    "textPlacement": "bottom",
+                    "left": 20, 
+                    "top": 200, 
+                    "width": 60, 
+                    "height": 60
+                },
+                "btnDelete": {
+                    "type": "button",
+                    "text": ":xliff:CommonDelete",
+                    "action": "deleteRecord",
+                    "style": "toolbar",
+                    "icon": "/RESOURCES/images/Buttons/LightGrey/DeleteRecord.png",
+                    "iconFrames": 4,
+                    "textPlacement": "bottom",
+                    "left":20, 
+                    "top":260, 
+                    "width":60, 
+                    "height":60
+                },
+                "btnCancel": {
+                    "type": "button",
+                    "text": ":xliff:CommonCancel",
+                    "action": "Cancel",
+                    "style": "toolbar",
+                    "icon": "/RESOURCES/images/Buttons/LightGrey/Cancel.png",
+                    "iconFrames": 4,
+                    "textPlacement": "bottom",
+                    "left":20, 
+                    "top":320, 
+                    "width":60, 
+                    "height":60
+                },
+                "btnSave": {
+                    "type": "button",
+                    "text": ":xliff:Template_Validate",
+                    "action": "Accept",
+                    "style": "toolbar",
+                    "icon": "/RESOURCES/images/Buttons/LightGrey/Validate.png",
+                    "iconFrames": 4,
+                    "textPlacement": "bottom",
+                    "left": 20, 
+                    "top": 380, 
+                    "width": 60, 
+                    "height": 60
+                },
+                "line": {
+                    "type": "line",
+                    "left": 90, 
+                    "top": 20, 
+                    "width": 1, 
+                    "bottom": {"$ref": "#/definition/mostBottom" },
+                    "sizingX": "fixed",
+                    "sizingY": "grow"
+                }
+			}
+        }
+    ]
+}
