@@ -3,3 +3,23 @@
 	font-size: 13px;
 }
 
+/* Liquid Glass rounds a push button only from 27px high; classic uses 23px */
+@media (form-theme: liquid-glass) {
+	.default {
+		height: 27px;
+	}
+
+	button.default {
+		height: 27px;
+	}
+}
+
+@media (form-theme: mac-classic) {
+	.default {
+		height: 23px;
+	}
+
+	button.default {
+		height: 23px;
+	}
+}

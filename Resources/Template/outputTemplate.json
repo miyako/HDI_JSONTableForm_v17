@@ -10,7 +10,7 @@
       "objects": {
         "btnAdd": {
           "type": "button",
-          "text": "Add",
+          "text": ":xliff:CommonAdd",
           "action": "addsubrecord",
           "style": "toolbar",
           "icon": "/RESOURCES/images/Buttons/LightGrey/NewRecord.png",
@@ -23,7 +23,7 @@
         },
         "btnDelete": {
           "type": "button",
-          "text": "Delete",
+          "text": ":xliff:CommonDelete",
           "action": "deleteSubrecord",
           "style": "toolbar",
           "icon": "/RESOURCES/images/Buttons/LightGrey/DeleteSelection.png",
@@ -36,7 +36,7 @@
         },
         "btnEdit": {
           "type": "button",
-          "text": "Edit",
+          "text": ":xliff:CommonEdit",
           "action": "editSubrecord",
           "style": "toolbar",
           "icon": "/RESOURCES/images/Buttons/LightGrey/Edit.png",
@@ -55,6 +55,7 @@
           "headerHeight": "2em",
           "horizontalLineStroke": "transparent",
           "hideFocusRing": true,
+          "resizingMode": "legacy",
           "left": 20,
           "top": 100,
           "width": 300,

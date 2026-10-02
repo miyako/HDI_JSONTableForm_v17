@@ -58,7 +58,8 @@
 					"width": 64,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "ID : "
+					"text": ":xliff:Label_ID",
+					"stroke": "automatic"
 				},
 				"S2_Text": {
 					"type": "text",
@@ -67,7 +68,8 @@
 					"width": 280,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "Title : "
+					"text": ":xliff:Label_Title",
+					"stroke": "automatic"
 				},
 				"S3_Text": {
 					"type": "text",
@@ -76,7 +78,8 @@
 					"width": 240,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "Text : "
+					"text": ":xliff:Label_Text",
+					"stroke": "automatic"
 				},
 				"S4_Text": {
 					"type": "text",
@@ -85,7 +88,8 @@
 					"width": 280,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "SampleSort : "
+					"text": ":xliff:Label_SampleSort",
+					"stroke": "automatic"
 				},
 				"Rectangle6": {
 					"type": "rectangle",
@@ -94,7 +98,8 @@
 					"width": 1000,
 					"height": 25,
 					"sizingX": "grow",
-					"stroke": "transparent"
+					"stroke": "transparent",
+					"fill": "automatic"
 				},
 				"S1_Field": {
 					"type": "input",
@@ -132,7 +137,7 @@
 					"height": 17,
 					"sizingX": "grow",
 					"dataSource": "[Samples:1]Title:2",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -157,7 +162,7 @@
 					"height": 17,
 					"sizingX": "grow",
 					"dataSource": "[Samples:1]Text:3",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -182,7 +187,7 @@
 					"height": 17,
 					"sizingX": "grow",
 					"dataSource": "[Samples:1]SampleSort:4",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -204,7 +209,7 @@
 					"top": -5,
 					"left": 0,
 					"height": 49,
-					"stroke": "#A8A8A8"
+					"class": "tf-line"
 				},
 				"Line8": {
 					"type": "line",
@@ -212,14 +217,14 @@
 					"left": 1000,
 					"height": 49,
 					"sizingX": "move",
-					"stroke": "#A8A8A8"
+					"class": "tf-line"
 				},
 				"Line9": {
 					"type": "line",
 					"top": -5,
 					"left": 688,
 					"height": 49,
-					"stroke": "#A8A8A8"
+					"class": "tf-line"
 				},
 				"Splitter2": {
 					"type": "splitter",
@@ -238,7 +243,7 @@
 					"top": -5,
 					"left": 416,
 					"height": 49,
-					"stroke": "#A8A8A8"
+					"class": "tf-line"
 				},
 				"Splitter3": {
 					"type": "splitter",
@@ -257,7 +262,7 @@
 					"top": -5,
 					"left": 104,
 					"height": 49,
-					"stroke": "#A8A8A8"
+					"class": "tf-line"
 				},
 				"Splitter4": {
 					"type": "splitter",

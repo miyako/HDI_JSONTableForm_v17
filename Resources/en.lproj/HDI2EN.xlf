@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+	<file datatype="plaintext" original="Project/Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="en">
+		<body>
+			<trans-unit id="HDI2_HeaderType" resname="HDI2_HeaderType">
+				<source>Type</source>
+				<target>Type</target>
+			</trans-unit>
+			<trans-unit id="HDI2_HeaderName" resname="HDI2_HeaderName">
+				<source>Name</source>
+				<target>Name</target>
+			</trans-unit>
+			<trans-unit id="HDI2_HeaderLabel" resname="HDI2_HeaderLabel">
+				<source>Label</source>
+				<target>Label</target>
+			</trans-unit>
+			<trans-unit id="HDI2_LabelTable" resname="HDI2_LabelTable">
+				<source>Table:</source>
+				<target>Table:</target>
+			</trans-unit>
+			<trans-unit id="HDI2_TipGenerate" resname="HDI2_TipGenerate">
+				<source>Generate dynamic form</source>
+				<target>Generate dynamic form</target>
+			</trans-unit>
+			<trans-unit id="HDI2_TipOpen" resname="HDI2_TipOpen">
+				<source>Open the dynamic form file</source>
+				<target>Open the dynamic form file</target>
+			</trans-unit>
+			<trans-unit id="HDI2_TipRun" resname="HDI2_TipRun">
+				<source>Execute the dynamic form </source>
+				<target>Execute the dynamic form </target>
+			</trans-unit>
+			<trans-unit id="HDI2_TipTemplateTop" resname="HDI2_TipTemplateTop">
+				<source>Template with button on the top</source>
+				<target>Template with button on the top</target>
+			</trans-unit>
+			<trans-unit id="HDI2_TipTemplateLeft" resname="HDI2_TipTemplateLeft">
+				<source>Template with button on the left</source>
+				<target>Template with button on the left</target>
+			</trans-unit>
+			<trans-unit id="HDI2_TipOutputForm" resname="HDI2_TipOutputForm">
+				<source>Output form</source>
+				<target>Output form</target>
+			</trans-unit>
+			<trans-unit id="HDI2_TipInputForm" resname="HDI2_TipInputForm">
+				<source>Input form</source>
+				<target>Input form</target>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

@@ -1,5 +1,5 @@
 //%attributes = {"invisible":true}
-C_LONGINT:C283($iTable; $iField; $type)
+var $iTable; $iField; $type : Integer
 
 $iTable:=arrTableID{arrTableName}
 

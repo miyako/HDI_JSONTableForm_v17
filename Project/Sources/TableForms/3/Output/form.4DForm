@@ -47,9 +47,7 @@
 					"left": 24,
 					"width": 48,
 					"height": 48,
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/Add Record"
-					},
+					"tooltip": ":xliff:TipAddRecord",
 					"action": "addSubrecord",
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/NewRecord.png",
@@ -66,9 +64,9 @@
 					"left": 12,
 					"width": 72,
 					"height": 17,
-					"stroke": "#000000",
+					"stroke": "automatic",
 					"textAlign": "center",
-					"text": "Add"
+					"text": ":xliff:CommonAdd"
 				},
 				"bDelete": {
 					"type": "pictureButton",
@@ -76,9 +74,7 @@
 					"left": 96,
 					"width": 48,
 					"height": 48,
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/Delete Selectio"
-					},
+					"tooltip": ":xliff:TipDeleteSelection",
 					"action": "deleteSubrecord",
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/DeleteSelection.png",
@@ -95,9 +91,9 @@
 					"left": 84,
 					"width": 72,
 					"height": 17,
-					"stroke": "#000000",
+					"stroke": "automatic",
 					"textAlign": "center",
-					"text": "Delete"
+					"text": ":xliff:CommonDelete"
 				},
 				"bShowAll": {
 					"type": "pictureButton",
@@ -105,9 +101,7 @@
 					"left": 168,
 					"width": 48,
 					"height": 48,
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/Show All"
-					},
+					"tooltip": ":xliff:TipShowAll",
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/ShowAll.png",
 					"switchWhenRollover": true,
@@ -124,9 +118,9 @@
 					"left": 156,
 					"width": 72,
 					"height": 17,
-					"stroke": "#000000",
+					"stroke": "automatic",
 					"textAlign": "center",
-					"text": "Show all"
+					"text": ":xliff:TableForm_ShowAll"
 				},
 				"bShowSubSet": {
 					"type": "pictureButton",
@@ -134,9 +128,7 @@
 					"left": 240,
 					"width": 48,
 					"height": 48,
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/Show Subset"
-					},
+					"tooltip": ":xliff:TipShowSubset",
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/ShowSubset.png",
 					"switchWhenRollover": true,
@@ -153,9 +145,9 @@
 					"left": 228,
 					"width": 72,
 					"height": 17,
-					"stroke": "#000000",
+					"stroke": "automatic",
 					"textAlign": "center",
-					"text": "Show subset"
+					"text": ":xliff:TableForm_ShowSubset"
 				},
 				"bQuery": {
 					"type": "pictureButton",
@@ -163,9 +155,7 @@
 					"left": 312,
 					"width": 48,
 					"height": 48,
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/Query"
-					},
+					"tooltip": ":xliff:TipQuery",
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/Query.png",
 					"switchWhenRollover": true,
@@ -182,9 +172,9 @@
 					"left": 300,
 					"width": 72,
 					"height": 17,
-					"stroke": "#000000",
+					"stroke": "automatic",
 					"textAlign": "center",
-					"text": "Query"
+					"text": ":xliff:TableForm_Query"
 				},
 				"bOrderBy": {
 					"type": "pictureButton",
@@ -192,9 +182,7 @@
 					"left": 384,
 					"width": 48,
 					"height": 48,
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/Order By"
-					},
+					"tooltip": ":xliff:TipOrderBy",
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/OrderBy.png",
 					"switchWhenRollover": true,
@@ -211,9 +199,9 @@
 					"left": 372,
 					"width": 72,
 					"height": 17,
-					"stroke": "#000000",
+					"stroke": "automatic",
 					"textAlign": "center",
-					"text": "Order by"
+					"text": ":xliff:TableForm_OrderBy"
 				},
 				"bReport": {
 					"type": "pictureButton",
@@ -221,9 +209,7 @@
 					"left": 456,
 					"width": 48,
 					"height": 48,
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/Report"
-					},
+					"tooltip": ":xliff:TipReport",
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/Report.png",
 					"switchWhenRollover": true,
@@ -240,9 +226,9 @@
 					"left": 444,
 					"width": 72,
 					"height": 17,
-					"stroke": "#000000",
+					"stroke": "automatic",
 					"textAlign": "center",
-					"text": "Quick reports"
+					"text": ":xliff:TableForm_QuickReports"
 				},
 				"bLabels": {
 					"type": "pictureButton",
@@ -250,9 +236,7 @@
 					"left": 528,
 					"width": 48,
 					"height": 48,
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/Print Labels"
-					},
+					"tooltip": ":xliff:TipPrintLabels",
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/Label.png",
 					"switchWhenRollover": true,
@@ -269,9 +253,9 @@
 					"left": 516,
 					"width": 72,
 					"height": 17,
-					"stroke": "#000000",
+					"stroke": "automatic",
 					"textAlign": "center",
-					"text": "Print labels"
+					"text": ":xliff:TableForm_PrintLabels"
 				},
 				"bPrint": {
 					"type": "pictureButton",
@@ -279,9 +263,7 @@
 					"left": 600,
 					"width": 48,
 					"height": 48,
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/Print Selection"
-					},
+					"tooltip": ":xliff:TipPrintSelection",
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/Print.png",
 					"switchWhenRollover": true,
@@ -298,9 +280,9 @@
 					"left": 588,
 					"width": 72,
 					"height": 17,
-					"stroke": "#000000",
+					"stroke": "automatic",
 					"textAlign": "center",
-					"text": "Print"
+					"text": ":xliff:CommonPrint"
 				},
 				"bDone": {
 					"type": "pictureButton",
@@ -308,9 +290,7 @@
 					"left": 672,
 					"width": 48,
 					"height": 48,
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/Done"
-					},
+					"tooltip": ":xliff:TipDone",
 					"action": "cancel",
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/Done.png",
@@ -327,9 +307,9 @@
 					"left": 660,
 					"width": 72,
 					"height": 17,
-					"stroke": "#000000",
+					"stroke": "automatic",
 					"textAlign": "center",
-					"text": "Finish"
+					"text": ":xliff:TableForm_Finish"
 				},
 				"Picture8": {
 					"type": "picture",
@@ -348,7 +328,8 @@
 					"width": 64,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "ID : "
+					"text": ":xliff:Label_ID",
+					"stroke": "automatic"
 				},
 				"S2_Text": {
 					"type": "text",
@@ -357,7 +338,8 @@
 					"width": 240,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "TextField : "
+					"text": ":xliff:Label_TextField",
+					"stroke": "automatic"
 				},
 				"S3_Text": {
 					"type": "text",
@@ -366,7 +348,8 @@
 					"width": 81,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "DateField : "
+					"text": ":xliff:Label_DateField",
+					"stroke": "automatic"
 				},
 				"S4_Text": {
 					"type": "text",
@@ -375,7 +358,8 @@
 					"width": 64,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "TimeField : "
+					"text": ":xliff:Label_TimeField",
+					"stroke": "automatic"
 				},
 				"S5_Text": {
 					"type": "text",
@@ -384,7 +368,8 @@
 					"width": 83,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "BooleanField : "
+					"text": ":xliff:Label_BooleanField",
+					"stroke": "automatic"
 				},
 				"S6_Text": {
 					"type": "text",
@@ -393,7 +378,8 @@
 					"width": 85,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "NumericField : "
+					"text": ":xliff:Label_NumericField",
+					"stroke": "automatic"
 				},
 				"S7_Text": {
 					"type": "text",
@@ -402,7 +388,8 @@
 					"width": 400,
 					"height": 17,
 					"sizingX": "grow",
-					"text": "ObjectField : "
+					"text": ":xliff:Label_ObjectField",
+					"stroke": "automatic"
 				},
 				"Rectangle9": {
 					"type": "rectangle",
@@ -411,7 +398,8 @@
 					"width": 1249,
 					"height": 25,
 					"sizingX": "grow",
-					"stroke": "transparent"
+					"stroke": "transparent",
+					"fill": "automatic"
 				},
 				"S1_Field": {
 					"type": "input",
@@ -449,7 +437,7 @@
 					"height": 17,
 					"sizingX": "grow",
 					"dataSource": "[AllTypes:3]TextField:3",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -475,7 +463,7 @@
 					"sizingX": "grow",
 					"dataSource": "[AllTypes:3]DateField:4",
 					"dataSourceTypeHint": "date",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -501,7 +489,7 @@
 					"sizingX": "grow",
 					"dataSource": "[AllTypes:3]TimeField:5",
 					"dataSourceTypeHint": "time",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -526,7 +514,7 @@
 					"height": 15,
 					"sizingX": "grow",
 					"dataSource": "[AllTypes:3]BooleanField:6",
-					"text": "Yes",
+					"text": ":xliff:CommonYes",
 					"events": [
 						"onLoad",
 						"onValidate",
@@ -537,7 +525,8 @@
 						"onDisplayDetail",
 						"onDataChange",
 						"onPrintingDetail"
-					]
+					],
+					"stroke": "automatic"
 				},
 				"S6_Field": {
 					"type": "input",
@@ -547,7 +536,7 @@
 					"height": 17,
 					"sizingX": "grow",
 					"dataSource": "[AllTypes:3]NumericField:7",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -573,7 +562,7 @@
 					"sizingX": "grow",
 					"dataSource": "[AllTypes:3]ObjectField:9",
 					"dataSourceTypeHint": "object",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "none",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -595,7 +584,7 @@
 					"top": 78,
 					"left": 0,
 					"height": 49,
-					"stroke": "#A8A8A8"
+					"class": "tf-line"
 				},
 				"Line11": {
 					"type": "line",
@@ -603,14 +592,14 @@
 					"left": 1249,
 					"height": 49,
 					"sizingX": "move",
-					"stroke": "#A8A8A8"
+					"class": "tf-line"
 				},
 				"Line12": {
 					"type": "line",
 					"top": 78,
 					"left": 817,
 					"height": 49,
-					"stroke": "#A8A8A8"
+					"class": "tf-line"
 				},
 				"Splitter2": {
 					"type": "splitter",
@@ -629,7 +618,7 @@
 					"top": 78,
 					"left": 700,
 					"height": 49,
-					"stroke": "#A8A8A8"
+					"class": "tf-line"
 				},
 				"Splitter3": {
 					"type": "splitter",
@@ -648,7 +637,7 @@
 					"top": 78,
 					"left": 585,
 					"height": 49,
-					"stroke": "#A8A8A8"
+					"class": "tf-line"
 				},
 				"Splitter4": {
 					"type": "splitter",
@@ -667,7 +656,7 @@
 					"top": 78,
 					"left": 489,
 					"height": 49,
-					"stroke": "#A8A8A8"
+					"class": "tf-line"
 				},
 				"Splitter5": {
 					"type": "splitter",
@@ -686,7 +675,7 @@
 					"top": 78,
 					"left": 376,
 					"height": 49,
-					"stroke": "#A8A8A8"
+					"class": "tf-line"
 				},
 				"Splitter6": {
 					"type": "splitter",
@@ -705,7 +694,7 @@
 					"top": 78,
 					"left": 104,
 					"height": 49,
-					"stroke": "#A8A8A8"
+					"class": "tf-line"
 				},
 				"Splitter7": {
 					"type": "splitter",

@@ -1,9 +1,9 @@
 //%attributes = {"invisible":true}
 //Get application resources path
-C_TEXT:C284($0)
+#DECLARE->$result : Text
 
-C_LONGINT:C283($Lon_i; $Lon_platform)
-C_TEXT:C284($Path_buffer)
+var $Lon_i; $Lon_platform : Integer
+var $Path_buffer : Text
 
 
 $Path_buffer:=Application file:C491
@@ -31,4 +31,4 @@ Else
 	
 End if 
 
-$0:=$Path_buffer+"Resources"+Folder separator:K24:12+"Images"+Folder separator:K24:12+"StructureEditor"+Folder separator:K24:12
+$result:=$Path_buffer+"Resources"+Folder separator:K24:12+"Images"+Folder separator:K24:12+"StructureEditor"+Folder separator:K24:12

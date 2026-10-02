@@ -14,7 +14,7 @@
     "booleanInput": {
         "type": "checkbox",
         "style": "regular",
-        "text": "yes",
+        "text": ":xliff:CommonYes",
         "width": 120,
         "height": 18,
         "sizingX": "grow"
@@ -47,7 +47,8 @@
     "colListbox": {
         "minWidth": 100,
         "maxWidth": 300,
-        "resizable": true
+        "resizable": true,
+        "truncateMode": "none"
 
     }
 }

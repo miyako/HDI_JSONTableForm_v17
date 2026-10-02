@@ -58,7 +58,8 @@
 					"dropping": "custom",
 					"events": [
 						"onDataChange"
-					]
+					],
+					"stroke": "automatic"
 				}
 			}
 		},
@@ -72,8 +73,8 @@
 					"width": 50,
 					"height": 50,
 					"fill": "transparent",
-					"stroke": "#808080",
-					"borderRadius": 5
+					"borderRadius": 5,
+					"class": "hdi-frame"
 				},
 				"btnGenerate": {
 					"type": "button",
@@ -81,7 +82,7 @@
 					"left": 700,
 					"width": 50,
 					"height": 50,
-					"tooltip": "Generate dynamic form",
+					"tooltip": ":xliff:HDI2_TipGenerate",
 					"focusable": false,
 					"icon": "/RESOURCES/Images/Draft_2x.png",
 					"iconFrames": 4,
@@ -98,8 +99,8 @@
 					"width": 50,
 					"height": 50,
 					"fill": "transparent",
-					"stroke": "#808080",
-					"borderRadius": 5
+					"borderRadius": 5,
+					"class": "hdi-frame"
 				},
 				"Round Rectangle2": {
 					"type": "rectangle",
@@ -109,8 +110,8 @@
 					"height": 50,
 					"sizingX": "move",
 					"fill": "transparent",
-					"stroke": "#808080",
-					"borderRadius": 5
+					"borderRadius": 5,
+					"class": "hdi-frame"
 				},
 				"btnOpen": {
 					"type": "button",
@@ -119,7 +120,7 @@
 					"width": 50,
 					"height": 50,
 					"sizingX": "move",
-					"tooltip": "Open the dynamic form file",
+					"tooltip": ":xliff:HDI2_TipOpen",
 					"focusable": false,
 					"icon": "/RESOURCES/Images/Open_2x.png",
 					"iconFrames": 4,
@@ -136,8 +137,8 @@
 					"width": 100,
 					"height": 50,
 					"fill": "transparent",
-					"stroke": "#696969",
-					"borderRadius": 5
+					"borderRadius": 5,
+					"class": "hdi-frame"
 				},
 				"3D Radio Button": {
 					"type": "radio",
@@ -146,7 +147,7 @@
 					"width": 50,
 					"height": 50,
 					"dataSource": "isTemplate1",
-					"tooltip": "Template with buttom on the top",
+					"tooltip": ":xliff:HDI2_TipTemplateTop",
 					"focusable": false,
 					"icon": "/RESOURCES/Images/alignTop_48px.png",
 					"iconFrames": 4,
@@ -162,7 +163,7 @@
 					"left": 600,
 					"width": 50,
 					"height": 50,
-					"tooltip": "Template with button on the left",
+					"tooltip": ":xliff:HDI2_TipTemplateLeft",
 					"focusable": false,
 					"icon": "/RESOURCES/Images/alignLeft_48px.png",
 					"iconFrames": 4,
@@ -177,7 +178,7 @@
 					"top": 226,
 					"left": 599,
 					"height": 50,
-					"stroke": "#808080"
+					"class": "hdi-frame"
 				},
 				"rectINputOutput": {
 					"type": "rectangle",
@@ -186,8 +187,8 @@
 					"width": 100,
 					"height": 50,
 					"fill": "transparent",
-					"stroke": "#808080",
-					"borderRadius": 5
+					"borderRadius": 5,
+					"class": "hdi-frame"
 				},
 				"3D Radio Button2": {
 					"type": "radio",
@@ -196,7 +197,7 @@
 					"width": 50,
 					"height": 50,
 					"dataSource": "isOutput",
-					"tooltip": "Outputform",
+					"tooltip": ":xliff:HDI2_TipOutputForm",
 					"focusable": false,
 					"icon": "/RESOURCES/Images/Tables_2x.png",
 					"iconFrames": 4,
@@ -212,7 +213,7 @@
 					"left": 480,
 					"width": 50,
 					"height": 50,
-					"tooltip": "Input form",
+					"tooltip": ":xliff:HDI2_TipInputForm",
 					"focusable": false,
 					"icon": "/RESOURCES/Images/Paste_2x.png",
 					"iconFrames": 4,
@@ -227,7 +228,7 @@
 					"top": 226,
 					"left": 480,
 					"height": 50,
-					"stroke": "#808080"
+					"class": "hdi-frame"
 				},
 				"Popup Dropdown List": {
 					"type": "dropdown",
@@ -260,6 +261,9 @@
 						"onSelectionChange",
 						"onHeaderClick"
 					],
+					"fill": "automatic",
+					"stroke": "automatic",
+					"alternateFill": "automaticAlternate",
 					"columns": [
 						{
 							"name": "Column1",
@@ -269,9 +273,6 @@
 							"minWidth": 10,
 							"maxWidth": 32000,
 							"controlType": "checkbox",
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -282,15 +283,18 @@
 								"name": "Header1",
 								"stroke": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
+								"verticalAlign": "automatic",
+								"text": null
 							},
 							"footer": {
 								"name": "Footer1",
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column4",
@@ -300,9 +304,6 @@
 							"minWidth": 10,
 							"maxWidth": 32000,
 							"pictureFormat": "truncatedCenter",
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -311,7 +312,7 @@
 							],
 							"header": {
 								"name": "Header4",
-								"text": "Type",
+								"text": ":xliff:HDI2_HeaderType",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -321,8 +322,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column2",
@@ -331,9 +334,6 @@
 							"minWidth": 10,
 							"maxWidth": 32000,
 							"enterable": false,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -342,7 +342,7 @@
 							],
 							"header": {
 								"name": "Header2",
-								"text": "Name",
+								"text": ":xliff:HDI2_HeaderName",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -352,8 +352,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column5",
@@ -361,9 +363,6 @@
 							"width": 142,
 							"minWidth": 10,
 							"maxWidth": 32000,
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -372,7 +371,7 @@
 							],
 							"header": {
 								"name": "Header5",
-								"text": "Label",
+								"text": ":xliff:HDI2_HeaderLabel",
 								"stroke": "automatic",
 								"textAlign": "automatic",
 								"verticalAlign": "automatic"
@@ -382,8 +381,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						},
 						{
 							"name": "Column3",
@@ -392,9 +393,6 @@
 							"minWidth": 10,
 							"maxWidth": 32000,
 							"visibility": "hidden",
-							"stroke": "automatic",
-							"fill": "automatic",
-							"alternateFill": "automatic",
 							"textAlign": "automatic",
 							"verticalAlign": "automatic",
 							"events": [
@@ -413,8 +411,10 @@
 								"stroke": "automatic",
 								"fill": "automatic",
 								"textAlign": "automatic",
-								"verticalAlign": "automatic"
-							}
+								"verticalAlign": "automatic",
+								"truncateMode": "none"
+							},
+							"truncateMode": "none"
 						}
 					]
 				},
@@ -438,7 +438,7 @@
 					"left": 770,
 					"width": 50,
 					"height": 50,
-					"tooltip": "Execute the dynamic form ",
+					"tooltip": ":xliff:HDI2_TipRun",
 					"focusable": false,
 					"icon": "/RESOURCES/Images/Execute.png",
 					"iconFrames": 4,
@@ -455,7 +455,8 @@
 					"width": 73,
 					"height": 17,
 					"textAlign": "right",
-					"text": "Table:"
+					"text": ":xliff:HDI2_LabelTable",
+					"stroke": "automatic"
 				}
 			}
 		}

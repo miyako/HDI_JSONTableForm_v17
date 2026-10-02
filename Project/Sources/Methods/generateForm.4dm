@@ -6,18 +6,14 @@
 // 
 //
 // Parameters
-//    $1: boolean; type of the form (true = input - false = output)
-//    $2: template
+//    $isOutput: boolean; type of the form (true = input - false = output)
+//    $isTemplate1: template
 // ----------------------------------------------------
+#DECLARE($isOutput : Boolean; $isTemplate1 : Boolean)
 
-C_BOOLEAN:C305($isOutput; $isTemplate1)
-
-C_OBJECT:C1216($oFormTemplate; $oObjectTemplate)
-C_OBJECT:C1216($oFormTemp)
-
-
-$isOutput:=$1
-$isTemplate1:=$2
+var $oFormTemplate; $oObjectTemplate; $oFormTemp; $oStatic; $oInput; $oColumn : Object
+var $i; $lastElementPos; $numItem : Integer
+var $path : Text
 
 // Load Object Template
 $oObjectTemplate:=JSON Parse:C1218(Document to text:C1236(Get 4D folder:C485(Current resources folder:K5:16)+"template"+Folder separator:K24:12+"objectTemplate.json"))
@@ -38,15 +34,11 @@ If ($isOutput=False:C215)  //input Form
 	$oFormTemp.name:="ListForm:"+arrTableName{arrTableName}
 	
 	
-	C_LONGINT:C283($lastElementPos)
 	$lastElementPos:=$oFormTemplate.definition.mostTop
 	
 	For ($i; 1; Size of array:C274(arrFieldName))
 		
 		If (arrFieldDisplay{$i}=True:C214)
-			
-			C_OBJECT:C1216($oStatic; $oInput)
-			
 			
 			// create label object
 			$oStatic:=OB Copy:C1225($oObjectTemplate.staticText)
@@ -123,14 +115,11 @@ Else   // Output Form
 	$oFormTemp.pages[1].objects.myListBox.table:=arrTableName{arrTableName}
 	$oFormTemp.pages[1].objects.myListBox.columns:=New collection:C1472()
 	
-	C_LONGINT:C283($numItem)
 	$numItem:=0
 	
 	For ($i; 1; Size of array:C274(arrFieldName))
 		
 		If (arrFieldDisplay{$i}=True:C214)
-			
-			C_OBJECT:C1216($oColumn)
 			
 			// create a listbox column
 			$oColumn:=OB Copy:C1225($oObjectTemplate.colListbox)
@@ -159,7 +148,6 @@ OBJECT SET SUBFORM:C1138(*; "Subform"; $oFormTemp)
 
 // save the for in a JSON file
 
-C_TEXT:C284($path)
 $path:=Get 4D folder:C485(Current resources folder:K5:16)+"JSONForms"
 If (Test path name:C476($path)<0)
 	CREATE FOLDER:C475($path)

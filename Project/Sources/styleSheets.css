@@ -1,0 +1,50 @@
+/* cross-platform styles: light and dark appearance */
+
+@media (prefers-color-scheme: light) {
+	.hdi-panel {
+		fill: #C0C0C0;
+	}
+
+	.hdi-muted {
+		stroke: #696969;
+	}
+
+	.hdi-link {
+		stroke: #1E90FF;
+	}
+
+	.hdi-frame {
+		stroke: #808080;
+	}
+
+	.tf-line {
+		stroke: #A8A8A8;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.hdi-panel {
+		fill: #3A3A3A;
+	}
+
+	.hdi-muted {
+		stroke: #A0A0A0;
+	}
+
+	.hdi-link {
+		stroke: #5CB8FF;
+	}
+
+	.hdi-frame {
+		stroke: #A0A0A0;
+	}
+
+	.tf-line {
+		stroke: #5A5A5A;
+	}
+}
+
+/* the error text sits on a 90% white overlay picture, so it stays dark in both schemes */
+.hdi-error {
+	stroke: #212121;
+}

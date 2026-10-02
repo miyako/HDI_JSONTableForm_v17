@@ -1,3 +1,6 @@
+var $iTable : Integer
+var $path : Text
+
 Case of 
 		
 	: (Form event code:C388=On Load:K2:1)
@@ -50,10 +53,7 @@ Case of
 			loadField
 		End if 
 		
-		C_BOOLEAN:C305(isOutput)
 		isOutput:=True:C214
-		
-		C_BOOLEAN:C305(isTemplate1)
 		isTemplate1:=True:C214
 		
 		If (Is Windows:C1573)

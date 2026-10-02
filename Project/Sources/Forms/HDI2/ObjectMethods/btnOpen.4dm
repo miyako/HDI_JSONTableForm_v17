@@ -1,4 +1,4 @@
-C_TEXT:C284($path)
+var $path : Text
 
 If (isOutput)
 	$path:=Get 4D folder:C485(Current resources folder:K5:16)+"JSONForms"+Folder separator:K24:12+arrTableName{arrTableName}+"Output"+".json"

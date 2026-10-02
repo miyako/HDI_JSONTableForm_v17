@@ -14,7 +14,7 @@
             "objects": { 
                 "btnFirstRecord": {
                     "type": "button",
-                    "text": "First",
+                    "text": ":xliff:Template_First",
                     "action": "firstRecord",
                     "style": "toolbar",
                     "icon": "/RESOURCES/images/Buttons/LightGrey/FirstRecord.png",
@@ -27,7 +27,7 @@
                 },
                 "btnPreviousRecord": {
                     "type": "button",
-                    "text": "Previous",
+                    "text": ":xliff:Template_Previous",
                     "action": "previousRecord",
                     "style": "toolbar",
                     "icon": "/RESOURCES/images/Buttons/LightGrey/PreviousRecord.png",
@@ -40,7 +40,7 @@
                 },
                 "btnNextRecord": {
                     "type": "button",
-                    "text": "Next",
+                    "text": ":xliff:Template_Next",
                     "action": "nextRecord",
                     "style": "toolbar",
                     "icon": "/RESOURCES/images/Buttons/LightGrey/NextRecord.png",
@@ -53,7 +53,7 @@
                 },
                 "btnLastRecord": {
                     "type": "button",
-                    "text": "Last",
+                    "text": ":xliff:Template_Last",
                     "action": "lastRecord",
                     "style": "toolbar",
                     "icon": "/RESOURCES/images/Buttons/LightGrey/LastRecord.png",
@@ -66,7 +66,7 @@
                 },
                 "btnDelete": {
                     "type": "button",
-                    "text": "Delete",
+                    "text": ":xliff:CommonDelete",
                     "action": "deleteRecord",
                     "style": "toolbar",
                     "icon": "/RESOURCES/images/Buttons/LightGrey/DeleteRecord.png",
@@ -79,7 +79,7 @@
                 },
                 "btnCancel": {
                     "type": "button",
-                    "text": "Cancel",
+                    "text": ":xliff:CommonCancel",
                     "action": "Cancel",
                     "style": "toolbar",
                     "icon": "/RESOURCES/images/Buttons/LightGrey/Cancel.png",
@@ -92,7 +92,7 @@
                 },
                 "btnSave": {
                     "type": "button",
-                    "text": "Validate",
+                    "text": ":xliff:Template_Validate",
                     "action": "Accept",
                     "style": "toolbar",
                     "icon": "/RESOURCES/images/Buttons/LightGrey/Validate.png",

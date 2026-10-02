@@ -46,13 +46,11 @@
 					"left": 419,
 					"width": 100,
 					"height": 12,
-					"stroke": "#000000",
+					"stroke": "automatic",
 					"fontFamily": "System Font",
 					"fontSize": 9,
 					"focusable": false,
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/Record Number"
-					},
+					"tooltip": ":xliff:TipRecordNumber",
 					"fill": "transparent",
 					"borderStyle": "none",
 					"enterable": false,
@@ -73,8 +71,8 @@
 					"width": 380,
 					"height": 17,
 					"sizingX": "grow",
-					"stroke": "#000000",
-					"text": "AllTypes"
+					"stroke": "automatic",
+					"text": ":xliff:TableTitle_AllTypes"
 				},
 				"Line12": {
 					"type": "line",
@@ -89,9 +87,7 @@
 					"left": 21,
 					"width": 48,
 					"height": 48,
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/First Record"
-					},
+					"tooltip": ":xliff:TipFirstRecord",
 					"action": "firstRecord",
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/FirstRecord.png",
@@ -108,9 +104,7 @@
 					"left": 84,
 					"width": 48,
 					"height": 48,
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/Previous Record"
-					},
+					"tooltip": ":xliff:TipPreviousRecord",
 					"action": "previousRecord",
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/PreviousRecord.png",
@@ -127,9 +121,7 @@
 					"left": 147,
 					"width": 48,
 					"height": 48,
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/Next Record"
-					},
+					"tooltip": ":xliff:TipNextRecord",
 					"action": "nextRecord",
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/NextRecord.png",
@@ -146,9 +138,7 @@
 					"left": 210,
 					"width": 48,
 					"height": 48,
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/Last Record"
-					},
+					"tooltip": ":xliff:TipLastRecord",
 					"action": "lastRecord",
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/LastRecord.png",
@@ -165,9 +155,7 @@
 					"left": 273,
 					"width": 48,
 					"height": 48,
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/Delete Record"
-					},
+					"tooltip": ":xliff:TipDeleteRecord",
 					"action": "deleteRecord",
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/DeleteRecord.png",
@@ -184,9 +172,7 @@
 					"left": 336,
 					"width": 48,
 					"height": 48,
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/Cancel"
-					},
+					"tooltip": ":xliff:TipCancel",
 					"action": "cancel",
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/Cancel.png",
@@ -203,9 +189,7 @@
 					"left": 399,
 					"width": 48,
 					"height": 48,
-					"tooltip": {
-						"$ref": "/SOURCES/tips.json#/OK"
-					},
+					"tooltip": ":xliff:TipAccept",
 					"action": "accept",
 					"rowCount": 4,
 					"picture": "/RESOURCES/Images/Buttons/LightGrey/Validate.png",
@@ -223,7 +207,8 @@
 					"width": 95,
 					"height": 17,
 					"textAlign": "right",
-					"text": "ID : "
+					"text": ":xliff:Label_ID",
+					"stroke": "automatic"
 				},
 				"Text14": {
 					"type": "text",
@@ -232,7 +217,8 @@
 					"width": 95,
 					"height": 17,
 					"textAlign": "right",
-					"text": "TextField : "
+					"text": ":xliff:Label_TextField",
+					"stroke": "automatic"
 				},
 				"Text15": {
 					"type": "text",
@@ -241,7 +227,8 @@
 					"width": 95,
 					"height": 17,
 					"textAlign": "right",
-					"text": "DateField : "
+					"text": ":xliff:Label_DateField",
+					"stroke": "automatic"
 				},
 				"Text16": {
 					"type": "text",
@@ -250,7 +237,8 @@
 					"width": 95,
 					"height": 17,
 					"textAlign": "right",
-					"text": "TimeField : "
+					"text": ":xliff:Label_TimeField",
+					"stroke": "automatic"
 				},
 				"Text17": {
 					"type": "text",
@@ -259,7 +247,8 @@
 					"width": 95,
 					"height": 17,
 					"textAlign": "right",
-					"text": "BooleanField : "
+					"text": ":xliff:Label_BooleanField",
+					"stroke": "automatic"
 				},
 				"Text18": {
 					"type": "text",
@@ -268,7 +257,8 @@
 					"width": 95,
 					"height": 17,
 					"textAlign": "right",
-					"text": "NumericField : "
+					"text": ":xliff:Label_NumericField",
+					"stroke": "automatic"
 				},
 				"Text19": {
 					"type": "text",
@@ -277,7 +267,8 @@
 					"width": 95,
 					"height": 17,
 					"textAlign": "right",
-					"text": "PictureField : "
+					"text": ":xliff:Label_PictureField",
+					"stroke": "automatic"
 				},
 				"Text20": {
 					"type": "text",
@@ -286,7 +277,8 @@
 					"width": 95,
 					"height": 17,
 					"textAlign": "right",
-					"text": "ObjectField : "
+					"text": ":xliff:Label_ObjectField",
+					"stroke": "automatic"
 				},
 				"ID": {
 					"type": "input",
@@ -324,7 +316,7 @@
 					"height": 65,
 					"dataSource": "[AllTypes:3]TextField:3",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"scrollbarVertical": "visible",
@@ -351,7 +343,7 @@
 					"dataSource": "[AllTypes:3]DateField:4",
 					"dataSourceTypeHint": "date",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -377,7 +369,7 @@
 					"dataSource": "[AllTypes:3]TimeField:5",
 					"dataSourceTypeHint": "time",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -401,8 +393,8 @@
 					"width": 61,
 					"height": 15,
 					"dataSource": "[AllTypes:3]BooleanField:6",
-					"text": "Yes",
-					"stroke": "#000000",
+					"text": ":xliff:CommonYes",
+					"stroke": "automatic",
 					"textAlign": "left",
 					"events": [
 						"onLoad",
@@ -424,7 +416,7 @@
 					"height": 17,
 					"dataSource": "[AllTypes:3]NumericField:7",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"dragging": "none",
@@ -449,7 +441,7 @@
 					"height": 250,
 					"dataSource": "[AllTypes:3]PictureField:8",
 					"dataSourceTypeHint": "picture",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"scrollbarVertical": "visible",
 					"scrollbarHorizontal": "visible",
@@ -475,7 +467,7 @@
 					"dataSource": "[AllTypes:3]ObjectField:9",
 					"dataSourceTypeHint": "object",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"multiline": "yes",
@@ -501,7 +493,8 @@
 					"width": 95,
 					"height": 17,
 					"textAlign": "right",
-					"text": "BlobField : "
+					"text": ":xliff:Label_BlobField",
+					"stroke": "automatic"
 				},
 				"ObjectField1": {
 					"type": "input",
@@ -512,7 +505,7 @@
 					"dataSource": "[AllTypes:3]ObjectField:9",
 					"dataSourceTypeHint": "object",
 					"textAlign": "left",
-					"fill": "#FFFFFF",
+					"fill": "automatic",
 					"borderStyle": "sunken",
 					"contextMenu": "none",
 					"multiline": "yes",
