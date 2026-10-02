@@ -1,0 +1,487 @@
+{
+	"rightMargin": 19,
+	"bottomMargin": 20,
+	"menuBar": "Menu Bar #1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onClick",
+		"onDoubleClick",
+		"onMenuSelect",
+		"onDataChange",
+		"onAfterEdit",
+		"onPageChange"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"TabControl": {
+					"type": "tab",
+					"top": 20,
+					"left": 20,
+					"width": 960,
+					"height": 660,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "TabControl",
+					"dataSourceTypeHint": "arrayText",
+					"action": "GotoPage",
+					"events": [
+						"onClick"
+					]
+				},
+				"varTxt": {
+					"type": "input",
+					"top": 70,
+					"left": 40,
+					"width": 920,
+					"height": 649,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"fontFamily": "System Font",
+					"fontSize": 16,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		},
+		null,
+		{
+			"objects": {
+				"Round Rectangle": {
+					"type": "rectangle",
+					"top": 226,
+					"left": 700,
+					"width": 50,
+					"height": 50,
+					"fill": "transparent",
+					"stroke": "#808080",
+					"borderRadius": 5
+				},
+				"btnGenerate": {
+					"type": "button",
+					"top": 226,
+					"left": 700,
+					"width": 50,
+					"height": 50,
+					"tooltip": "Generate dynamic form",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Draft_2x.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/btnGenerate.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Round Rectangle3": {
+					"type": "rectangle",
+					"top": 226,
+					"left": 770,
+					"width": 50,
+					"height": 50,
+					"fill": "transparent",
+					"stroke": "#808080",
+					"borderRadius": 5
+				},
+				"Round Rectangle2": {
+					"type": "rectangle",
+					"top": 226,
+					"left": 910,
+					"width": 50,
+					"height": 50,
+					"sizingX": "move",
+					"fill": "transparent",
+					"stroke": "#808080",
+					"borderRadius": 5
+				},
+				"btnOpen": {
+					"type": "button",
+					"top": 226,
+					"left": 910,
+					"width": 50,
+					"height": 50,
+					"sizingX": "move",
+					"tooltip": "Open the dynamic form file",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Open_2x.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/btnOpen.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"rectTypeTemplate": {
+					"type": "rectangle",
+					"top": 226,
+					"left": 550,
+					"width": 100,
+					"height": 50,
+					"fill": "transparent",
+					"stroke": "#696969",
+					"borderRadius": 5
+				},
+				"3D Radio Button": {
+					"type": "radio",
+					"top": 226,
+					"left": 550,
+					"width": 50,
+					"height": 50,
+					"dataSource": "isTemplate1",
+					"tooltip": "Template with buttom on the top",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/alignTop_48px.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"radioGroup": "Group21",
+					"events": [
+						"onClick"
+					]
+				},
+				"3D Radio Button1": {
+					"type": "radio",
+					"top": 226,
+					"left": 600,
+					"width": 50,
+					"height": 50,
+					"tooltip": "Template with button on the left",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/alignLeft_48px.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"radioGroup": "Group21",
+					"events": [
+						"onClick"
+					]
+				},
+				"Line1": {
+					"type": "line",
+					"top": 226,
+					"left": 599,
+					"height": 50,
+					"stroke": "#808080"
+				},
+				"rectINputOutput": {
+					"type": "rectangle",
+					"top": 226,
+					"left": 430,
+					"width": 100,
+					"height": 50,
+					"fill": "transparent",
+					"stroke": "#808080",
+					"borderRadius": 5
+				},
+				"3D Radio Button2": {
+					"type": "radio",
+					"top": 226,
+					"left": 430,
+					"width": 50,
+					"height": 50,
+					"dataSource": "isOutput",
+					"tooltip": "Outputform",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Tables_2x.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"radioGroup": "Group20",
+					"events": [
+						"onClick"
+					]
+				},
+				"3D Radio Button3": {
+					"type": "radio",
+					"top": 226,
+					"left": 480,
+					"width": 50,
+					"height": 50,
+					"tooltip": "Input form",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Paste_2x.png",
+					"iconFrames": 4,
+					"style": "custom",
+					"radioGroup": "Group20",
+					"events": [
+						"onClick"
+					]
+				},
+				"Line": {
+					"type": "line",
+					"top": 226,
+					"left": 480,
+					"height": 50,
+					"stroke": "#808080"
+				},
+				"Popup Dropdown List": {
+					"type": "dropdown",
+					"top": 239,
+					"left": 124,
+					"width": 261,
+					"height": 24,
+					"dataSource": "arrTableName",
+					"focusable": false,
+					"method": "ObjectMethods/Popup Dropdown List.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"List Box": {
+					"type": "listbox",
+					"top": 290,
+					"left": 40,
+					"width": 370,
+					"height": 370,
+					"sizingY": "grow",
+					"resizingMode": "legacy",
+					"hideFocusRing": true,
+					"headerHeight": "2em",
+					"scrollbarHorizontal": "automatic",
+					"horizontalLineStroke": "transparent",
+					"events": [
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"columns": [
+						{
+							"name": "Column1",
+							"dataSource": "arrFieldDisplay",
+							"dataSourceTypeHint": "boolean",
+							"width": 31,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"controlType": "checkbox",
+							"stroke": "automatic",
+							"fill": "automatic",
+							"alternateFill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header1",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Footer1",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						},
+						{
+							"name": "Column4",
+							"dataSource": "arrFieldPic",
+							"dataSourceTypeHint": "picture",
+							"width": 42,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"pictureFormat": "truncatedCenter",
+							"stroke": "automatic",
+							"fill": "automatic",
+							"alternateFill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header4",
+								"text": "Type",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": " 2",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						},
+						{
+							"name": "Column2",
+							"dataSource": "arrFieldName",
+							"width": 140,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"enterable": false,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"alternateFill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header2",
+								"text": "Name",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": "Footer2",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						},
+						{
+							"name": "Column5",
+							"dataSource": "arrFieldLabel",
+							"width": 142,
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"stroke": "automatic",
+							"fill": "automatic",
+							"alternateFill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header5",
+								"text": "Label",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": " 3",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						},
+						{
+							"name": "Column3",
+							"dataSource": "arrFieldType",
+							"dataSourceTypeHint": "number",
+							"minWidth": 10,
+							"maxWidth": 32000,
+							"visibility": "hidden",
+							"stroke": "automatic",
+							"fill": "automatic",
+							"alternateFill": "automatic",
+							"textAlign": "automatic",
+							"verticalAlign": "automatic",
+							"events": [
+								"onClick",
+								"onDataChange"
+							],
+							"header": {
+								"name": "Header3",
+								"text": "Header3",
+								"stroke": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							},
+							"footer": {
+								"name": " 1",
+								"stroke": "automatic",
+								"fill": "automatic",
+								"textAlign": "automatic",
+								"verticalAlign": "automatic"
+							}
+						}
+					]
+				},
+				"Subform": {
+					"type": "subform",
+					"top": 290,
+					"left": 430,
+					"width": 530,
+					"height": 370,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSourceTypeHint": "text",
+					"deletableInList": false,
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"borderStyle": "system"
+				},
+				"btnRun": {
+					"type": "button",
+					"top": 226,
+					"left": 770,
+					"width": 50,
+					"height": 50,
+					"tooltip": "Execute the dynamic form ",
+					"focusable": false,
+					"icon": "/RESOURCES/Images/Execute.png",
+					"iconFrames": 4,
+					"style": "toolbar",
+					"method": "ObjectMethods/btnRun.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 243,
+					"left": 40,
+					"width": 73,
+					"height": 17,
+					"textAlign": "right",
+					"text": "Table:"
+				}
+			}
+		}
+	],
+	"editor": {
+		"groups": {
+			"Group23": [
+				"Round Rectangle",
+				"btnGenerate"
+			],
+			"Group22": [
+				"Round Rectangle2",
+				"btnOpen"
+			],
+			"Group21": [
+				"rectTypeTemplate",
+				"3D Radio Button",
+				"3D Radio Button1",
+				"Line1"
+			],
+			"Group20": [
+				"rectINputOutput",
+				"3D Radio Button2",
+				"3D Radio Button3",
+				"Line"
+			]
+		}
+	}
+}

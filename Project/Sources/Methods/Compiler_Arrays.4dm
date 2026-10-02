@@ -1,0 +1,11 @@
+//%attributes = {"invisible":true}
+ARRAY BOOLEAN:C223(arrFieldDisplay; 0)
+ARRAY TEXT:C222(arrFieldName; 0)
+ARRAY LONGINT:C221(arrFieldType; 0)
+ARRAY LONGINT:C221(arrTableID; 0)
+ARRAY TEXT:C222(arrTableName; 0)
+ARRAY TEXT:C222(TabControl; 0)
+ARRAY TEXT:C222(TextTabControl; 0)
+ARRAY TEXT:C222(arrFieldLabel; 0)
+ARRAY PICTURE:C279(arrFieldPic; 0)
+ARRAY PICTURE:C279(arrPict; 0)

@@ -1,0 +1,49 @@
+{
+	"tables": {
+		"AllTypes": {
+			"color": {
+				"red": "255",
+				"green": "255",
+				"blue": "255",
+				"alpha": "0"
+			},
+			"coordinates": {
+				"left": "439.0234375",
+				"top": "39.0234375",
+				"width": "219.58203125",
+				"height": "359.5859375"
+			},
+			"displayable_fields_count": 15
+		},
+		"Person": {
+			"color": {
+				"red": "255",
+				"green": "255",
+				"blue": "255",
+				"alpha": "0"
+			},
+			"coordinates": {
+				"left": "248.2265625",
+				"top": "51.4375",
+				"width": "120",
+				"height": "167.33203125"
+			},
+			"displayable_fields_count": 6
+		},
+		"Samples": {
+			"color": {
+				"red": "255",
+				"green": "255",
+				"blue": "255",
+				"alpha": "0"
+			},
+			"coordinates": {
+				"left": "7",
+				"top": "54.1171875",
+				"width": "185.43359375",
+				"height": "249.0703125"
+			},
+			"displayable_fields_count": 9
+		}
+	}
+}
